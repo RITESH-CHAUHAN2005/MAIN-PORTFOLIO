@@ -31,9 +31,9 @@ const About = () => {
           {
             y: 0,
             opacity: 1,
-            duration: 0.8,
+            duration: 1,
             stagger: 0.1,
-            ease: 'power3.out',
+            ease: 'power4.out',
             scrollTrigger: {
               trigger: headingRef.current,
               start: 'top 80%',
@@ -199,7 +199,7 @@ const About = () => {
                 style={{ zIndex: techCards.length - index }}
               >
                 <div
-                  className="w-32 h-40 md:w-36 md:h-44 rounded-2xl flex flex-col items-center justify-center gap-3 shadow-xl"
+                  className="w-40 h-48 md:w-44 md:h-52 rounded-2xl flex flex-col items-center justify-center gap-3 shadow-xl"
                   style={{ backgroundColor: tech.color }}
                 >
                   {renderIcon(tech.icon)}

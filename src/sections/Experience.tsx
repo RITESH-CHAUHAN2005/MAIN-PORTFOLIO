@@ -6,28 +6,28 @@ gsap.registerPlugin(ScrollTrigger);
 
 const experiences = [
   {
-    company: 'Featherwebs',
-    period: '2022 - Present',
-    role: 'Frontend Developer',
+    company: 'Gaura Nitai Technologies',
+    period: 'June 2025 – August 2025',
+    role: 'React.js Developer Intern',
     achievements: [
-      'Spearheaded the frontend development of an in-house SaaS HRMS platform, implementing key modules like attendance, timesheet, payroll, and leave management.',
-      'Developed a dashboard for an EMI Credit Processing System using React.js, enabling role-based access control, and implemented features for user management, KYC verification and EMI eligibility checks to streamline the approval process.',
-      'Designed, built, and maintained 10+ high-performance, responsive websites and applications using React.js, Next.js, and modern frontend frameworks.',
-      'Mentored and guided junior developers through code reviews, best practices, and skill development, fostering a strong engineering culture.',
+      'Completed a 2-month internship as a React.js Developer, working on real-world web applications and UI modules.',
+      'Built reusable and responsive components using React.js, JavaScript, and modern CSS, ensuring clean UI and smooth user experience.',
+      'Integrated APIs and handled dynamic data rendering to improve application functionality and performance.',
+      'Collaborated with senior developers to follow best practices, optimize code, and improve overall frontend architecture.',
     ],
-    technologies: 'React.js, Next.js, Angular, Laravel, TypeScript, Redux, Tailwind CSS, T3 Stack',
+    technologies: 'React.js, JavaScript, HTML, CSS, API Integration, Git',
   },
   {
-    company: 'Muncha.com',
-    period: '2019 - 2022',
-    role: 'Frontend Developer',
+    company: 'Chaotic Jack',
+    period: '2023 – Present',
+    role: 'Co-Founder | Marketing & Web Solutions Agency',
     achievements: [
-      'Engineered the frontend for Muncha.com\'s eCommerce platform, enhancing UX and optimizing site performance.',
-      'Developed and maintained responsive UI components using HTML, CSS, JavaScript, ensuring cross-browser compatibility.',
-      'Employed Gulp for task automation, streamlining the development workflow and enhancing project efficiency.',
-      'Collaborated with UI/UX designers and backend developers to refine features and implement design enhancements.',
+      'Co-founded Chaotic Jack, a digital marketing and web solutions agency delivering end-to-end services for startups and businesses.',
+      'Led website development projects including business websites, landing pages, and eCommerce platforms, focusing on performance and conversions.',
+      'Planned and executed SEO, performance marketing, and brand-focused digital strategies to help clients scale online.',
+      'Worked closely with clients to understand business goals and translate them into effective digital solutions.',
     ],
-    technologies: 'Html, SCSS, JavaScript, Gulp, Bootstrap, jQuery, Alpine.js, Tailwind CSS, WordPress',
+    technologies: 'Web Development, SEO, Performance Marketing, WordPress, React.js, UI/UX, Client Management',
   },
 ];
 
@@ -101,7 +101,7 @@ const Experience = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative bg-white py-20 px-6 md:px-16 lg:px-24 overflow-hidden"
+      className="relative bg-white py-12 px-6 md:px-16 lg:px-24 overflow-hidden"
     >
       {/* Heading */}
       <h2

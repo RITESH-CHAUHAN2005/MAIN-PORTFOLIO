@@ -31,9 +31,9 @@ const Hero = () => {
         {
           y: 0,
           opacity: 1,
-          duration: 1,
+          duration: 1.2,
           stagger: 0.05,
-          ease: 'power3.out',
+          ease: 'power4.out',
         }
       );
 
@@ -53,9 +53,9 @@ const Hero = () => {
           y: 0,
           opacity: 1,
           rotateY: 0,
-          duration: 1,
-          stagger: 0.1,
-          ease: 'power3.out',
+          duration: 1.2,
+          stagger: 0.12,
+          ease: 'power4.out',
         },
         '-=0.6'
       );
@@ -175,12 +175,6 @@ const Hero = () => {
       ref={sectionRef}
       className="relative min-h-screen bg-white flex flex-col items-center justify-center overflow-hidden"
     >
-      {/* Top info */}
-      <div className="absolute top-8 left-0 right-0 text-center">
-        <p className="text-xs tracking-widest text-gray-500 uppercase">Delhi, India</p>
-        <p className="text-xs tracking-widest text-gray-400 uppercase mt-1">riteshchauhan43792@gmail.com</p>
-      </div>
-
       {/* Main name */}
       <div ref={nameRef} className="text-center z-10 mt-0">
         <h1 className="text-[12vw] md:text-[10vw] font-bold leading-[0.9] tracking-tight text-black">
@@ -223,7 +217,7 @@ const Hero = () => {
                 }}
               >
                 <div
-                  className="w-32 h-40 md:w-40 md:h-48 rounded-2xl flex flex-col items-center justify-center gap-4 shadow-2xl transition-transform hover:scale-105 cursor-pointer"
+                  className="w-40 h-48 md:w-48 md:h-56 rounded-2xl flex flex-col items-center justify-center gap-4 shadow-2xl transition-transform hover:scale-105 cursor-pointer"
                   style={{ backgroundColor: tech.color }}
                 >
                   {renderIcon(tech.icon)}

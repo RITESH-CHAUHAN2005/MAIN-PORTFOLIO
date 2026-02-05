@@ -1,73 +1,115 @@
-# React + TypeScript + Vite
+# Ritesh Chauhan - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my work as a Full-Stack Web Developer.
 
-Currently, two official plugins are available:
+## 🚀 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I'm **Ritesh Chauhan**, a passionate Full-Stack Web Developer based in Delhi, India, with over 2 years of experience in building modern, high-quality websites and scalable web applications. I specialize in creating visually engaging websites with smooth animations, clean UI/UX, and intuitive designs that enhance user experience.
 
-## React Compiler
+## 💼 Experience
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Gaura Nitai Technologies
 
-## Expanding the ESLint configuration
+**React.js Developer Intern** | June 2025 – August 2025
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Completed a 2-month internship working on real-world web applications and UI modules
+- Built reusable and responsive components using React.js, JavaScript, and modern CSS
+- Integrated APIs and handled dynamic data rendering
+- Collaborated with senior developers following best practices
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Chaotic Jack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+**Co-Founder | Marketing & Web Solutions Agency** | 2023 – Present
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Co-founded a digital marketing and web solutions agency
+- Led website development projects including business websites, landing pages, and eCommerce platforms
+- Executed SEO, performance marketing, and brand-focused digital strategies
+- Worked closely with clients to translate business goals into effective digital solutions
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Next.js, TypeScript, Tailwind CSS
+- **Backend:** Node.js, Firebase
+- **Animation:** GSAP (GreenSock Animation Platform)
+- **Tools:** Git, VS Code, WordPress
+- **Design:** UI/UX, Responsive Design
+
+## ✨ Features
+
+This portfolio includes:
+
+- 🎨 Modern, clean design with smooth animations
+- 📱 Fully responsive across all devices
+- 🎭 Interactive hero section with animated tech cards
+- 💼 Featured projects showcase with rainbow gradient cards
+- 📝 Detailed experience section
+- 🎯 Scroll-based letter fill animations
+- ⚡ Optimized performance
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/RITESH-CHAUHAN2005/MAIN-PORTFOLIO.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Navigate to the project directory
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd MAIN-PORTFOLIO
 ```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+## 📫 Contact
+
+- **Email:** riteshchauhan43792@gmail.com
+- **Location:** Delhi, India
+- **LinkedIn:** [Ritesh Chauhan](https://www.linkedin.com/in/ritesh-chauhan-739775324/)
+- **GitHub:** [RITESH-CHAUHAN2005](https://github.com/RITESH-CHAUHAN2005)
+
+## 🎯 Projects Featured
+
+- **Play Ludo** - Play Ludo Online with Friends & AI
+- **creasion.org** - Nepali Yuwa in Climate Action and Green Growth
+- **ENFORCER** - Australian Defence Apparel
+- **SWIFT HRMS** - Human Resource Management System
+- **muncha.com** - E-commerce Platform
+- **HULAS FIN SERVE** - EMI loan management system
+- **Dolphwin ATS** - Job Application Tracking System
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+⭐ **Made with ❤️ by Ritesh Chauhan**
+
+_Let's work together to create something awesome and beautiful!_
